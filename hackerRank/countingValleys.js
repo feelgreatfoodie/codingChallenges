@@ -20,4 +20,5 @@ function countingValleys(n, s) {
   return valleys
 }
 
-countingValleys(n, s)
+
+console.log('COUNTINGVALLEYS(N, S)', countingValleys(n, s))

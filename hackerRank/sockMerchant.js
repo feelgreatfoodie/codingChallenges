@@ -12,4 +12,4 @@ function sockMerchant(n, ar) {
     return sockPairs
 }
 
-console.log(sockMerchant(n,ar))
+console.log('SOCKMERCHANT(N,AR)', sockMerchant(n,ar))
