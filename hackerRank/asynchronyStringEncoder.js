@@ -9,8 +9,7 @@
 // all output should be lower case, regardless of input case ("Hello World" should produce the same result as "hello world")
 
 let s1 = `1234567890bcdfghjklmnpqrstvwxyzaeiou`
-// `0987654321abcefgijklmopqrsuvw y12345`
-// `sg2y4m2yeq4lysg2yu3kk1f2yem`
+let expected = `0987654321abcefgijklmopqrsuvw y12345`
 
 function encode(stringToEncode) {
 
@@ -60,4 +59,4 @@ function encode(stringToEncode) {
 }
 
 console.log('ENCODE(S1)', encode(s1))
-console.log('expected::', `0987654321abcefgijklmopqrsuvw y12345`)
+console.log('expected::', expected)
